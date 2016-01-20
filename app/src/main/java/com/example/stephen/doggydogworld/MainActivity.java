@@ -16,8 +16,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       Log.d("MainActive", "Yay!! I'm Logging!");
-        Log.d("MainActive", "I'm Logging again");
+
+        Dog mD = new Dog();
+
+
+
+        mD.name = "Hope";
+        mD.breed = "German Sheperd";
+
+        Dog yD = new Dog();
+
+        yD.name = "Happiness";
+        yD.breed = "Beagle;";
+
+       Log.d("MainActive", mD.bork());
+       Log.d("MainActive", mD.name + " just barked!");
+
+
+
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
