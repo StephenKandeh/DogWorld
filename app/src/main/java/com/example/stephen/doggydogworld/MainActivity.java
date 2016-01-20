@@ -29,11 +29,8 @@ public class MainActivity extends AppCompatActivity {
         yD.name = "Happiness";
         yD.breed = "Beagle;";
 
-       Log.d("MainActive", mD.bork());
-       Log.d("MainActive", mD.name + " just barked!");
 
-
-
+        mD.bork();
 
 
 
