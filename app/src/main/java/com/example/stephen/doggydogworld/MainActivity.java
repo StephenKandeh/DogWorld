@@ -17,20 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Dog mD = new Dog();
+        Dog myDog = new Dog();
+
+        myDog.Dogs("Sparky","German Sheperd","boy","He");
 
 
 
-        mD.name = "Hope";
-        mD.breed = "German Sheperd";
 
-        Dog yD = new Dog();
-
-        yD.name = "Happiness";
-        yD.breed = "Beagle;";
-
-
-        mD.bork();
 
 
 
@@ -68,4 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
