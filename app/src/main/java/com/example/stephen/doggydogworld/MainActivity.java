@@ -17,10 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Dog myDog = new Dog();
-
-        myDog.Dogs("Sparky","German Sheperd","boy","He");
-
+        Dog myDog = new Dog("Hope", "Beagle", "boy", "He");
 
 
 

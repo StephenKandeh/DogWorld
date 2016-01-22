@@ -13,13 +13,13 @@ public class Dog {
     private String gender;
 
 
-    void Dogs(String dName, String dBreed, String dGender, String heOrShe) {
+
+    Dog(String dName, String dBreed, String dGender, String heOrShe) {
+
         name = dName;
         breed = dBreed;
         gender = dGender;
-
         Log.d("MainActive", "My new puppy's name is " + dName + ". " + heOrShe + " is a " + dBreed + " and is my little " + dGender + "!");
-
 
     }
 
